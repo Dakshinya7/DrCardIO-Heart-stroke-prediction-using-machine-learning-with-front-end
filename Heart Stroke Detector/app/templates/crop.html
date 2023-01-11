@@ -1,0 +1,150 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+
+    html body {
+      background-color: rgb(206, 206, 228);
+
+      
+  }
+
+  
+</style>
+<!--Form Section-->
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+  <b>Find out if you are most likely to get a heart stroke or not.</b>
+</h2>
+<br />
+
+<div
+  style="
+    width: 350px;
+    height: 50rem;
+    margin: 0px auto;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 10px;
+  "
+>
+  <form method="POST" action="{{ url_for('stroke_prediction') }}">
+    <div class="form-group">
+      <label for="Gender" style="font-size: 17px"><b>Gender</b></label>
+      <select name="Gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="Age" style="font-size: 17px"><b>Age</b></label>
+      <input
+        type="number"
+        class="form-control"
+        id="Age"
+        name="age"
+        placeholder="Enter the value (example:50)"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Hypertension" style="font-size: 17px"><b>Hypertension</b></label>
+      <input
+        type="number"
+        class="form-control"
+        id="hypertension"
+        name="Hypertension"
+        placeholder="Enter the value"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Heart Disease" style="font-size: 17px"><b>Heart disease</b></label>
+      <select name="Heart Disease" id="heart_disease">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="Ever Married?" style="font-size: 17px"><b>Have you ever been married?</b></label>
+      <select name="Ever Married?" id="ever_married">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="Work Type" style="font-size: 17px"><b>Who do you work for?</b></label>
+      <select name="Work Type" id="work_type">
+        <option value="Private">Private Job</option>
+        <option value="Self-employed">Self-employed</option>
+        <option value="Govt_job">Government Job</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="Residence Type" style="font-size: 17px"><b>What kind of surrounding do you live in?</b></label>
+      <select name="Residence Type" id="Residence_type">
+        <option value="Urban">Urban</option>
+        <option value="Rural">Rural</option>
+      </select>
+    </div>    
+
+    <div class="form-group">
+      <label for="Average Glucose Level" style="font-size: 17px"><b>Your Average Glucose Level</b></label>
+      <input
+        type="number"
+        class="form-control"
+        id="avg_glucose_level"
+        name="Average Glucose Level"
+        placeholder="Enter the value"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="BMI" style="font-size: 17px"><b>Your BMI</b></label>
+      <input
+        type="number"
+        class="form-control"
+        id="bmi"
+        name="BMI"
+        placeholder="Enter the value"
+        style="font-weight: bold"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="Smoking Status" style="font-size: 17px"><b>What is your smoking status?</b></label>
+      <select name="Smoking Status" id="smoking_status">
+        <option value="formerly smoked">Smoked in the past</option>
+        <option value="never smoked">Never smoked till date</option>
+        <option value="smokes">Do smoke</option>
+        <option value="Unknown">I don't remember/ Not sure</option>
+      </select>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <button
+        type="submit"
+        class="btn btn-info"
+        style="color: black; font-weight: bold; width: 130px; height:50px; border-radius:12px; font-size: 21px;"
+      >
+        Predict
+      </button>
+    </div>
+  </form>
+</div>
+
+
+
+<!-- Form section -->
+
+{% endblock %}
