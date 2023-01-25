@@ -1,7 +1,7 @@
 # DrCardIO Heart Stroke Prediction 🩺
 
 
-        A simple Machine Learning and Deep Learning based website which predicts if a person is capable of acquiring a heart stroke during his lifetime.
+A simple Machine Learning and Deep Learning based website which predicts if a person is capable of acquiring a heart stroke during his lifetime.
 
 ## DISCLAIMER ⚠️
 
