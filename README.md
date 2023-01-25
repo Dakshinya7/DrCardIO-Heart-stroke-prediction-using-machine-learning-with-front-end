@@ -1,7 +1,7 @@
 # DrCardIO Heart Stroke Prediction 🩺
 
 
-A simple ML and DL based website which predicts if a person is capable of acquiring a heart stroke during his lifetime.
+        A simple Machine Learning and Deep Learning based website which predicts if a person is capable of acquiring a heart stroke during his lifetime.
 
 ## DISCLAIMER ⚠️
 
@@ -17,15 +17,15 @@ In the stroke prediction application, the user can provide the health data from 
 
 
 ## DATA SOURCE 📊
-Heart stroke prediction dataset (custom built dataset)
+Heart stroke prediction dataset (custom built dataset).
 
 ## Notebooks 📓
-Stroke Prediction
+Stroke Prediction.
 
 
 ## DEPLOYMENT 🚀
-Deployment is done using deploy branch
-This website is deployed using flask
+Deployment is done using deploy branch.
+This website is deployed using flask.
 
 ## How to use 💻
 Stroke Prediction system ==> enter the corresponding data of your health status.
