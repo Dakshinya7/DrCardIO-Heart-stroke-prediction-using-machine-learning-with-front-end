@@ -3,10 +3,11 @@
 
 A simple ML and DL based website which predicts if a person is capable of acquiring a heart stroke during his lifetime.
 
-DISCLAIMER ⚠️
+## DISCLAIMER ⚠️
+
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making health decisions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML/DL into precision predicting if developed at large scale and with authentic and verified data.
 
-MOTIVATION 💪
+## MOTIVATION 💪
 A stroke is a life-changing event — physically and emotionally. A stroke can make everyday activities challenging. These challenges may be due to several stroke-related conditions, such as limb weakness, numbness or paralysis, communication challenges, vision challenges and one-side neglect challenges.
 
 In this project, I present a website in which the stroke can be predicted based on the data given by the user.
@@ -15,23 +16,21 @@ In the stroke prediction application, the user can provide the health data from 
 
 
 
-DATA SOURCE 📊
+## DATA SOURCE 📊
 Heart stroke prediction dataset (custom built dataset)
-Notebooks 📓
+
+## Notebooks 📓
 Stroke Prediction
 
-       
 
-    
-
-DEPLOYMENT 🚀
+## DEPLOYMENT 🚀
 Deployment is done using deploy branch
 This website is deployed using flask
 
-How to use 💻
+## How to use 💻
 Stroke Prediction system ==> enter the corresponding data of your health status.
 
-How to run locally 🛠️
+## How to run locally 🛠️
 Before the following steps make sure you have git, Anaconda or miniconda installed on your system.
 Clone the complete project with git clone https://github.com/Dakshinya7/DrCardIO-Heart-stroke-prediction-using-machine-learning-with-front-end.git or you can just download the code and unzip it.
 Note: The master branch doesn't have the updated code used for deployment, to download the updated code used for deployment you can use the following command
@@ -47,7 +46,7 @@ python app.py
 Open the localhost url provided after running app.py and now you can use the project locally in your web browser.
 
 
-Further Improvements 📈
+## Further Improvements 📈
 This was my first big project so there are lot of things to improve upon
 
 CSS code is totally messed up 😔 (some code in file and some inline)
